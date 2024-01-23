@@ -27,6 +27,8 @@ pnpm-debug.log*
 
 # Submodul
 /frontend/vue.js/node_modules/
+/frontend/vue.js/.git/
+
 
 # Python virtuell miljö
 myenv/
