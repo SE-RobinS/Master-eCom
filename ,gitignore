@@ -1,0 +1,35 @@
+# Systemfiler
+.DS_Store
+
+# Beroenden
+node_modules/
+dist/
+
+# Miljöfiler
+.env
+.env.local
+.env.*.local
+
+# Loggfiler
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE-mappar och filer
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Submodul
+/frontend/vue.js/node_modules/
+
+# Python virtuell miljö
+myenv/
+
+# Git säkerhetsbackup
+.gitbackup/
